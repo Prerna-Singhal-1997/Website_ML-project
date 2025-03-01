@@ -1,0 +1,111 @@
+/* Video Container Styles */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+#background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+    object-fit: cover;
+    z-index: 0;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+                linear-gradient(90deg, rgba(13, 110, 253, 0.1), transparent);
+    z-index: 1;
+}
+
+/* Content Section */
+.content-section {
+    position: relative;
+    z-index: 2;
+    color: white;
+    background: linear-gradient(to bottom, 
+        rgba(13, 110, 253, 0.05),
+        rgba(13, 110, 253, 0.1)
+    );
+    padding: 3rem 0;
+    margin-top: -2rem;
+}
+
+/* Portrait Container Styles */
+.portrait-container {
+    position: relative;
+    z-index: 2;
+    padding: 20px;
+    border-radius: 12px;
+    background: rgba(13, 110, 253, 0.05);
+    box-shadow: 0 0 20px rgba(13, 110, 253, 0.1);
+}
+
+.portrait-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.portrait-image:hover {
+    transform: scale(1.02);
+}
+
+/* Learn More Page Styles */
+.hero-section {
+    background: linear-gradient(135deg, rgba(13, 110, 253, 0.1), rgba(13, 110, 253, 0.05));
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+}
+
+.tag-explanation {
+    font-style: italic;
+    color: #adb5bd;
+    margin: 2rem 0;
+    padding: 1rem;
+    border-left: 4px solid rgba(13, 110, 253, 0.5);
+}
+
+.project-card {
+    background: rgba(33, 37, 41, 0.8);
+    border: 1px solid rgba(13, 110, 253, 0.1);
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 2rem;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(13, 110, 253, 0.1);
+}
+
+.skill-icon {
+    font-size: 2rem;
+    color: rgba(13, 110, 253, 0.8);
+    margin-bottom: 1rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .video-container {
+        height: 40vh;
+    }
+
+    .portrait-container {
+        margin-bottom: 2rem;
+    }
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Landing Page</title>
+
+    <!-- Bootstrap CSS from Replit CDN -->
+    <link href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <!-- Video Section -->
+    <div class="video-container">
+        <video id="background-video" autoplay loop muted playsinline>
+            <source src="{{ url_for('static', filename='assets/video.mp4') }}" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="overlay"></div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="container content-section my-5">
+        <div class="row align-items-center">
+            <!-- Portrait Image -->
+            <div class="col-md-4">
+                <div class="portrait-container">
+                    <img src="{{ url_for('static', filename='assets/headshot.jpg') }}" 
+                         alt="Professional Portrait" 
+                         class="portrait-image img-fluid">
+                </div>
+            </div>
+
+            <!-- Text Content -->
+            <div class="col-md-8">
+                <h1 class="display-4 mb-4">Welcome</h1>
+                <p class="lead">
+                    Data, Daring & Disruption: Actuarial Intelligence Reimagined
+                </p>
+                <div class="mt-4">
+                    <a href="https://www.linkedin.com/in/prerna-singhal-aia/" 
+                       class="btn btn-outline-light me-3" 
+                       target="_blank">Connect on LinkedIn</a>
+                    <a href="{{ url_for('learn_more') }}" 
+                       class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

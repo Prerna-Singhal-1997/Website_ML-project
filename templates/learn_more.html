@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn More - Prerna Singhal</title>
+
+    <!-- Bootstrap CSS from Replit CDN -->
+    <link href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <h1 class="display-4 mb-4">Prerna Singhal</h1>
+                <h3 class="text-primary mb-4">Chef of the perfect actuarial and analytics blend!</h3>
+
+                <!-- Tagline Explanation -->
+                <div class="tag-explanation mb-5">
+                    Taking the traditional, careful analysis of numbers (actuarial intelligence) and giving it a bold, fresh twist by embracing modern data techniques and innovative ideas. In simple terms, not just crunching numbers—using them in new, daring ways to shake up and improve how things are done.
+                </div>
+
+                <!-- Professional Introduction -->
+                <div class="mb-5">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <p class="lead">
+                                Hey there! I'm Prerna Singhal, an Associate from the Institute and Faculty of Actuaries and currently diving into the world of Information Systems at the University of Washington.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="{{ url_for('static', filename='assets/image_1740700979888.png') }}" 
+                                 alt="Professional Illustration" 
+                                 class="img-fluid rounded">
+                        </div>
+                    </div>
+                    <p>
+                        With a Master's in Actuarial Science and a Bachelor's in Mathematics under my belt, along with 3+ years of hands-on experience, I've become a whiz at pricing insurance, whipping up business reports, and making magic with R and Python. My true passion? Merging actuarial smarts with analytics to uncover tech-driven solutions to complex problems. It's amazing to see how technology can supercharge actuarial solutions!
+                    </p>
+                </div>
+
+                <!-- Navigation Buttons -->
+                <div class="d-flex justify-content-center gap-4 mb-5">
+                    <a href="#actuarial" class="btn btn-primary px-4">Actuarial Expertise</a>
+                    <a href="#projects" class="btn btn-primary px-4">Projects</a>
+                </div>
+
+                <!-- Actuarial Expertise Section -->
+                <section id="actuarial" class="mb-5">
+                    <h2 class="display-6 mb-4 text-primary">Actuarial Expertise</h2>
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="project-card p-4 h-100">
+                                <h4>Risk Assessment & Pricing</h4>
+                                <ul class="list-unstyled">
+                                    <li class="mb-3">📊 Comprehensive pricing models for liability insurance across UK, US, and CEMENA regions</li>
+                                    <li class="mb-3">📈 Experience analysis and renewal pricing optimization</li>
+                                    <li class="mb-3">🌪️ Innovative CAT modeling for Hurricane perils in property insurance</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-card p-4 h-100">
+                                <h4>Analytics & Automation</h4>
+                                <ul class="list-unstyled">
+                                    <li class="mb-3">🔄 Modernized reporting systems from SAS to R</li>
+                                    <li class="mb-3">📱 Interactive price monitoring dashboards</li>
+                                    <li class="mb-3">📊 Advanced bind ratio analysis and visualization</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Projects Section -->
+                <section id="projects" class="mb-5">
+                    <h2 class="display-6 mb-4 text-primary">Recent Projects</h2>
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="project-card p-4">
+                                <h4>Cybersecurity in Smart Apartment Buildings</h4>
+                                <p>Conducted comprehensive analysis of IoT vulnerabilities and security strategies in modern residential buildings</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-card p-4 h-100">
+                                <h4>EV Charging Insights</h4>
+                                <p>Built predictive models for EV charging demand using machine learning and statistical analysis</p>
+                                <div class="mt-2">
+                                    <span class="badge bg-primary me-2">Python</span>
+                                    <span class="badge bg-primary">Predictive Modeling</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="project-card p-4 h-100">
+                                <h4>Digital Twin for Cars</h4>
+                                <p>Researched applications of digital twin technology in automotive predictive maintenance and insurance impact assessment</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Personal Touch -->
+                <div class="mb-5">
+                    <p class="lead">
+                        When I'm not crunching numbers, you might find me organizing events, travelling, dancing, participating in diversity and inclusion initiatives, and more.
+                    </p>
+                    <p>
+                        At UW, I'm excited to dive even deeper into the tech that can revolutionize the actuarial field. I can't wait to collaborate on innovative projects and share this journey.
+                    </p>
+                </div>
+
+                <a href="{{ url_for('index') }}" class="btn btn-outline-light">Back to Home</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+Cybersecurity in Smart Apartment Buildings (Presentation)
+Cybersecurity in Smart Apartment Buildings (Presentation)
+Nov 2024 - Nov 2024Nov 2024 - Nov 2024
+Examined cybersecurity vulnerabilities and mitigation strategies for IoT-integrated smart homes
+Examined cybersecurity vulnerabilities and mitigation strategies for IoT-integrated smart homes
+EV Charging Insights - Predictive modelling (Python)
+EV Charging Insights - Predictive modelling (Python)
+Nov 2024 - Nov 2024Nov 2024 - Nov 2024
+Developed a predictive model to analyze EV charging demand and optimal station placements using data on vehicle model/age, battery type, time of day, location etc. Applied techniques like correlation analysis, linear regression, random forest, simulation, and GLM models, with visualizations to support the findings.
+Developed a predictive model to analyze EV charging demand and optimal station placements using data on vehicle model/age, battery type, time of day, location etc. Applied techniques like correlation analysis, linear regression, random forest, simulation, and GLM models, with visualizations to support the findings.
+Skills: Python (Programming Language) · Predictive Modeling
+Skills: Python (Programming Language) · Predictive Modeling
+Emerging Technology: Digital Twin for Cars
+Emerging Technology: Digital Twin for Cars
+Nov 2024 - Nov 2024Nov 2024 - Nov 2024
+Researched and presented on the use of digital twin technology in automotive sector for predictive maintenance & impact on insurance. Talked about car journey, end users of the technology, current industry and cost-benefit analysis.
+Researched and presented on the use of digital twin technology in automotive sector for predictive maintenance & impact on insurance. Talked about car journey, end users of the technology, current industry and cost-benefit analysis.
+Space Insurance (Presentation)
+Space Insurance (Presentation)
+Jun 2020 - Jun 2020Jun 2020 - Jun 2020
+Developed a comprehensive analysis of the space insurance sector, covering key aspects such as coverage options, participant involvement, historical trends, and the current market landscape. Explored future developments and emerging trends within the industry to provide a thorough understanding of its evolution.
+Developed a comprehensive analysis of the space insurance sector, covering key aspects such as coverage options, participant involvement, historical trends, and the current market landscape. Explored future developments and emerging trends within the industry to provide a thorough understanding of its evolution.
+How University Education impact wages - Statistical Analysis using R programming
+How University Education impact wages - Statistical Analysis using R programming
+Dec 2019 - Dec 2019Dec 2019 - Dec 2019
+Conducted an in-depth analysis of wage disparities by evaluating the influence of education level, gender, occupation, race, and ethnicity. Leveraged R programming to apply advanced statistical techniques such as regression analysis, hypothesis testing, and ANOVA. Presented findings in a structured and professional format using LaTeX documentation.
+Conducted an in-depth analysis of wage disparities by evaluating the influence of education level, gender, occupation, race, and ethnicity. Leveraged R programming to apply advanced statistical techniques such as regression analysis, hypothesis testing, and ANOVA. Presented findings in a structured and professional format using LaTeX documentation.
+Skills: R programming · Regression Analysis
