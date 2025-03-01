@@ -9,13 +9,13 @@
     <link href="https://cdn.replit.com/agent/bootstrap-agent-dark-theme.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
     <!-- Video Section -->
     <div class="video-container">
         <video id="background-video" autoplay loop muted playsinline>
-            <source src="{{ url_for('static', filename='assets/video.mp4') }}" type="video/mp4">
+            <source src='static/assets/video.mp4' type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <div class="overlay"></div>
@@ -27,7 +27,7 @@
             <!-- Portrait Image -->
             <div class="col-md-4">
                 <div class="portrait-container">
-                    <img src="{{ url_for('static', filename='assets/headshot.jpg') }}" 
+                    <img src='static/assets/headshot.jpg' 
                          alt="Professional Portrait" 
                          class="portrait-image img-fluid">
                 </div>
@@ -43,7 +43,7 @@
                     <a href="https://www.linkedin.com/in/prerna-singhal-aia/" 
                        class="btn btn-outline-light me-3" 
                        target="_blank">Connect on LinkedIn</a>
-                    <a href="{{ url_for('learn_more') }}" 
+                    <a href='learn_more.html' 
                        class="btn btn-primary">Learn More</a>
                 </div>
             </div>
